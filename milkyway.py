@@ -183,7 +183,7 @@ class Game:
                 player_rect[0] < x < player_rect[0] + player_rect[2]
                 and player_rect[1] < y < player_rect[1] + player_rect[3]
             ):
-                self.damage += 5  # 4ダメージに変更
+                self.damage += 5  # 5ダメージに変更
                 self._create_particles(self.player_x, self.player_y)  # パーティクル生成
                 pyxel.play(3, 7)  # 被ダメージ音
 
